@@ -4,15 +4,13 @@ This project aims to develop a cutting-edge video processing bot, leveraging lib
 # Methodology:  
 Videos are fundamentally a blend of images (frames) and audio. Recognizing this, the bot dissects  
 the user-uploaded video into its constituent frames and audio segments. Subsequently, it applies  
-image-to-text and audio-to-text conversion techniques on these extracted elements. This bifurcated  
-approach enables efficient processing of video content.  
+image-to-text and audio-to-text conversion techniques on these extracted elements.
 
 Integration with OpenAI:  
 In the final step, the bot enriches its functionality by integrating user-provided prompts. It  
 aggregates the extracted text from images and audio with the user's prompt into a cohesive message  
 object. This object is then seamlessly relayed to OpenAI's powerful GPT-3.5 Turbo model via the  
-OpenAI API. The model interprets this amalgamated data to generate a comprehensive and contextually  
-relevant response.
+OpenAI API.
 
 # APIs & Models Used:  
 Huggingface  
