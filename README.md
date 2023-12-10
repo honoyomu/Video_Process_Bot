@@ -5,7 +5,7 @@ for windows system, need to set the config "LongPathsEnabled" to 1 to install tr
 ffmpeg is also a mandatory requirement
 pip install transformers
 
-#Required Libraries
+# Required Libraries
 machine learning libraries
 pip install torch
 pip install tensorflow
