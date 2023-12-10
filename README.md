@@ -1,3 +1,5 @@
+This video_process_bot is a LLM based bot that can understand the user uploaded video and generate corresponding messaged based on the user prompt
+
 # for windows system, need to set the config "LongPathsEnabled" to 1 to install transformers
 pip install transformers
 
