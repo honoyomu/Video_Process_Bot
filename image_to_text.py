@@ -17,7 +17,8 @@ def sort_key(filename):
     return frame_number
 
 def process_video_frames(folder_path):
-    results = OrderedDict()  # Use OrderedDict to maintain order
+    # Use OrderedDict to maintain order
+    results = OrderedDict()
     # Use the custom sort_key function for sorting
     for filename in sorted(os.listdir(folder_path), key=sort_key):
         if filename.startswith("frame_") and filename.endswith(".jpg"):
