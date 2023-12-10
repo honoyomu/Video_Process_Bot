@@ -6,14 +6,14 @@ ffmpeg is also a mandatory requirement
 pip install transformers
 
 # Requied Libraries
-pip install torch
-pip install tensorflow
-pip install opencv-python
-pip install moviepy
-pip install transformers torchaudio
-pip install whisper
-pip install streamlit
-npm install -g localtunnel
+pip install torch '/n'
+pip install tensorflow '/n'
+pip install opencv-python '/n'
+pip install moviepy '/n'
+pip install transformers torchaudio '/n'
+pip install whisper '/n'
+pip install streamlit '/n'
+npm install -g localtunnel '/n'
 
 # How to run
 python -m streamlit run app.py
