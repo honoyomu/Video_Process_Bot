@@ -7,23 +7,23 @@ pip install transformers
 
 # Required Libraries
 machine learning libraries
-pip install torch
-pip install tensorflow
+  pip install torch
+  pip install tensorflow
 
 video-to-image
-pip install opencv-python
+  pip install opencv-python
 
 video to audio
-pip install moviepy
-pip install transformers torchaudio
-pip install whisper
+  pip install moviepy
+  pip install transformers torchaudio
+  pip install whisper
 
 To run the program locally, I used the streamlit library
-pip install streamlit
-npm install -g localtunnel
+  pip install streamlit
+  npm install -g localtunnel
 
 # How to run
-python -m streamlit run app.py
+  python -m streamlit run app.py
 
 # How it works?
 ![Alt text](image.png)
